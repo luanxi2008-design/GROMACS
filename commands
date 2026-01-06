@@ -1,0 +1,6 @@
+This is the step that actually defines the simulation box in the output structure:
+
+gmx editconf -f DMSO_2000.pdb -o DMSO_2000_6p2nm.gro -box 6.2 6.2 6.2
+
+
+That .gro will have box vectors, and GROMACS viewers will show the box.
